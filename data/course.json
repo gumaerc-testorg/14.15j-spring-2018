@@ -1,0 +1,49 @@
+{
+  "term": "Spring",
+  "year": "2018",
+  "level": [
+    "Undergraduate"
+  ],
+  "topics": [
+    [
+      "Engineering",
+      "Computer Science",
+      "Computer Networks"
+    ],
+    [
+      "Social Science",
+      "Economics"
+    ]
+  ],
+  "legacy_uid": "3fff523f-655c-dd7c-2748-c29390738acc",
+  "instructors": {
+    "content": [
+      "736eac9d-e7e3-fcff-3802-6ede76cd5d44",
+      "d975b818-a2fa-33c6-a974-013cc635d658"
+    ],
+    "website": "ocw-www"
+  },
+  "course_image": {
+    "content": "dca94841-d9a3-b023-e8ca-b2830caf3460",
+    "website": "14-15j-networks-spring-2018"
+  },
+  "course_title": "Networks",
+  "course_description": "This course will highlight common principles that permeate the functioning of networks and how the same issues related to robustness, fragility and interlinkages arise in several different types of networks. It will both introduce conceptual tools from dynamical systems, random graph models, optimization and game theory, and cover a wide variety of applications.\n",
+  "department_numbers": [
+    "14",
+    "6"
+  ],
+  "extra_course_numbers": "6.207J",
+  "primary_course_number": "14.15J",
+  "course_image_thumbnail": {
+    "content": "d0c002e2-d11e-bf99-5dac-5ea29a945386",
+    "website": "14-15j-networks-spring-2018"
+  },
+  "learning_resource_types": [
+    "Problem Sets with Solutions",
+    "Exams with Solutions",
+    "Lecture Notes"
+  ],
+  "site_uid": "ea8665e6-6d03-4ea5-a1a9-cf2fbddd41b7",
+  "title": "Course Metadata"
+}
