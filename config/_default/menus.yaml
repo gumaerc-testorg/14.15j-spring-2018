@@ -1,0 +1,64 @@
+leftnav:
+- identifier: b633d746-e58a-d04f-26d2-146a7964a6ad
+  name: Syllabus
+  url: /pages/syllabus
+  weight: 10
+- identifier: c497090f-036e-3acb-00c8-82759d51457a
+  name: Calendar
+  url: /pages/calendar
+  weight: 20
+- identifier: 0bba04ea-61a2-c186-e446-5b370f64bee6
+  name: Readings
+  url: /pages/readings/
+  weight: 30
+- identifier: 129bb3a7-740a-b736-6d9c-6484c6ea46a1
+  name: Recommended Readings
+  parent: 0bba04ea-61a2-c186-e446-5b370f64bee6
+  url: /pages/readings/recommended-readings
+  weight: 40
+- identifier: 9f4e8596-124d-1608-f9e6-b335a917765a
+  name: Lecture and Recitation Notes
+  url: /pages/lecture-and-recitation-notes/
+  weight: 50
+- identifier: 95bc71b6-56b3-a07b-95c4-63f5d2768559
+  name: Recitation 7 Notes
+  parent: 9f4e8596-124d-1608-f9e6-b335a917765a
+  url: /pages/lecture-and-recitation-notes/recitation-7-notes
+  weight: 60
+- identifier: a27d11ad-71e0-3bed-8734-14bb67acd0f7
+  name: Recitation 8 Notes
+  parent: 9f4e8596-124d-1608-f9e6-b335a917765a
+  url: /pages/lecture-and-recitation-notes/recitation-8-notes
+  weight: 70
+- identifier: cc345d8d-6c56-e8b8-d5cb-038086ccf41b
+  name: Recitation 9 Notes
+  parent: 9f4e8596-124d-1608-f9e6-b335a917765a
+  url: /pages/lecture-and-recitation-notes/recitation-9-notes
+  weight: 80
+- identifier: c12605b9-6f3b-3003-c15f-17c54b313a4c
+  name: Recitation 10 Notes
+  parent: 9f4e8596-124d-1608-f9e6-b335a917765a
+  url: /pages/lecture-and-recitation-notes/recitation-10-notes
+  weight: 90
+- identifier: b9f67b7e-3369-39ee-b99e-51aeba3035bb
+  name: Recitation 11 Notes
+  parent: 9f4e8596-124d-1608-f9e6-b335a917765a
+  url: /pages/lecture-and-recitation-notes/recitation-11-notes
+  weight: 100
+- identifier: 2ec1c32b-4e76-eb2c-1162-a12d99c0d41e
+  name: Recitation 12 Notes
+  parent: 9f4e8596-124d-1608-f9e6-b335a917765a
+  url: /pages/lecture-and-recitation-notes/recitation-12-notes
+  weight: 110
+- identifier: bfb01f55-7e18-fd96-7a8f-927f9d3712b7
+  name: Assignments
+  url: /pages/assignments
+  weight: 120
+- identifier: c385c9f3-e7a9-69c5-7fa8-343a73411a07
+  name: Project Ideas
+  url: /pages/project-ideas
+  weight: 130
+- identifier: 1b95ec8c-e3db-d034-9f3c-decd0497c16a
+  name: Exams
+  url: /pages/exams
+  weight: 140
