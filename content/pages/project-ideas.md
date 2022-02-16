@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: Project Ideas
 uid: c385c9f3-e7a9-69c5-7fa8-343a73411a07
 ---

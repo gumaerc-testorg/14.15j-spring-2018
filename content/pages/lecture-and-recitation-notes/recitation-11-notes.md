@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
+parent_type: CourseSection
 parent_uid: 9f4e8596-124d-1608-f9e6-b335a917765a
 title: Recitation 11 Notes
 uid: b9f67b7e-3369-39ee-b99e-51aeba3035bb
@@ -29,13 +32,13 @@ If other players act _more_ aggressively, you have incentive to act _more_ aggre
 ![Diagram of relationship chart.]({{< resource_file 99a3b994-f74d-67d1-5aac-27008aeb3742 >}})
 
 *   _N_ = {1, 2, 3}
-*   _Si_ = ℝ+ = \[0, ∞)
-*   _u__i_(_x__i_, _x__\-i_, δ, _G_) = _x__i_ — ½ _xi__2_ + δ∑(j≠i) _gij xi x__j_
+*   _S{{< sub "i" >}}_ = ℝ{{< sub "+" >}} = \[0, ∞)
+*   _u_{{< sub "_i_" >}}(_x_{{< sub "_i_" >}}, _x_{{< sub "_\\-i_" >}}, δ, _G_) = _x_{{< sub "_i_" >}} — ½ _x{{< sub "i" >}}_{{< sup "_2_" >}} + δ∑{{< sub "(j≠i)" >}} _g{{< sub "i" >}}{{< sub "j" >}} x{{< sub "i" >}} x_{{< sub "_j_" >}}
     *   Where δ is the degree of complementarity (δ ≥ 0). 
 *   Best response of player _i_:   
     ![Best response equation formula.]({{< resource_file badee777-e475-cbcf-2d0c-fd00b47a34fa >}})
-*   Collectively, _BRi_(_x__\-i_) = 𝟙 + δ_G_𝕏.
-*   The equilibrium (fixed point) is 𝕏\* = (_I_ — δ_G_)\-1𝟙.
+*   Collectively, _BR{{< sub "i" >}}_(_x_{{< sub "_\\-i_" >}}) = 𝟙 + δ_G_𝕏.
+*   The equilibrium (fixed point) is 𝕏{{< sup "\\*" >}} = (_I_ — δ_G_){{< sup "\\-1" >}}𝟙.
 
 Subgame Perfect Equilibrium
 ---------------------------
@@ -103,8 +106,8 @@ Then, (3, 2) is the unique SPE. The guy claiming that he'll definitely go to foo
 Rubinstein's Bargaining Game
 ----------------------------
 
-*   Seller (player 1) does not value the good: _v__1_ = 0.
-*   Buyer (player 2) values the good: _v__2_ = 1.
+*   Seller (player 1) does not value the good: _v_{{< sub "_1_" >}} = 0.
+*   Buyer (player 2) values the good: _v_{{< sub "_2_" >}} = 1.
 
 _Question_: How is the price determined?  
 _Answer_: Many models, e.g. take-it-or-leave-it-offer. Rubenstein's is important because it can generate price ≈ ½ without altruism.
@@ -122,8 +125,8 @@ Trick: Let ͟_p_ and _p̅_ be the minimum and maximum payoffs 1 can receive in h
 *   Since any offer below δ͟q is rejected, p̅ ≤ 1 — δ͟q.
 *   Similarly, in 2's turn, we get ͟q ≥ 1 — δ p̅ and q̅ ≤ 1 — δ͟p.
 *   Combining, we get:
-    *   ͟_p_ ≥ 1 — δ_q̅_ ≥ 1 — δ(1 — δ͟_p_) ⇒ ͟_p_ ≥ (1 — δ)/(1 — δ2) = 1/(1 + δ).
-    *   _p̅_ ≤ 1 — δ͟_q_ ≤ 1 — δ(1 — δ_p̅_) ⇒ _p̅_ ≤ (1 — δ)/(1 — δ2) = 1/(1 + δ).
+    *   ͟_p_ ≥ 1 — δ_q̅_ ≥ 1 — δ(1 — δ͟_p_) ⇒ ͟_p_ ≥ (1 — δ)/(1 — δ{{< sup "2" >}}) = 1/(1 + δ).
+    *   _p̅_ ≤ 1 — δ͟_q_ ≤ 1 — δ(1 — δ_p̅_) ⇒ _p̅_ ≤ (1 — δ)/(1 — δ{{< sup "2" >}}) = 1/(1 + δ).
 *   Thus, ͟_p_ = _p̅_ = 1/(1 + δ) and ͟_q_ = _q̅_ = 1/(1 + δ).
 
 Bottom line: If there is any SPE, 1's payoff at _t_\=odd should be 1/(1 + δ) and 2's payoff at _t_\=even be 1/(1 + δ).

@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
+parent_type: CourseSection
 parent_uid: 9f4e8596-124d-1608-f9e6-b335a917765a
 title: Recitation 7 Notes
 uid: 95bc71b6-56b3-a07b-95c4-63f5d2768559
@@ -70,11 +73,11 @@ A game is a representation of strategic interaction. 
 
 How many iPhones should Apple produce?
 
-*   Apple produces _q1_ iPhones at marginal cost $500.
-*   Samsung produces _q2_ Galaxies at marginal cost $500.
-*   Price given by inverse demand _P_ \= 2000 — _Q_, _Q_ \= _q1_ + _q2._
-*   Apple's profit given by _Pq1 —_ $500 \* _q1._
-*   Samsung's profit given by _Pq2_ — $500 \* _q2._
+*   Apple produces _q{{< sub "1" >}}_ iPhones at marginal cost $500.
+*   Samsung produces _q{{< sub "2" >}}_ Galaxies at marginal cost $500.
+*   Price given by inverse demand _P_ \= 2000 — _Q_, _Q_ \= _q{{< sub "1" >}}_ + _q{{< sub "2." >}}_
+*   Apple's profit given by _Pq{{< sub "1" >}} —_ $500 \* _q{{< sub "1." >}}_
+*   Samsung's profit given by _Pq{{< sub "2" >}}_ — $500 \* _q{{< sub "2." >}}_
 
 Normal Form Games
 -----------------
@@ -82,14 +85,14 @@ Normal Form Games
 Formally, a game consists of 3 elements:
 
 1.  The set of players _N._
-2.  The sets of strategies {_Si_}i∈_N._
-3.  The sets of payoffs {_ui_: _S_ → ℝ }i∈_N._
+2.  The sets of strategies {_S{{< sub "i" >}}_}{{< sub "i∈" >}}_{{< sub "N." >}}_
+3.  The sets of payoffs {_u{{< sub "i" >}}_: _S_ → ℝ }{{< sub "i∈" >}}_{{< sub "N." >}}_
 
 ### Example: Prisoner's Dilemma
 
 *   _N_ = {1, 2}
-*   _S1_ = {silent, confess}, _S2_ = {silent, confess}
-*   _u1_ : _S1_ \* _S2_ → ℝ and _u2_ : _S1_ \* _S2_  → ℝ are given by the table, where _u1_ is red and _u2_ is blue.
+*   _S{{< sub "1" >}}_ = {silent, confess}, _S{{< sub "2" >}}_ = {silent, confess}
+*   _u{{< sub "1" >}}_ : _S{{< sub "1" >}}_ \* _S{{< sub "2" >}}_ → ℝ and _u{{< sub "2" >}}_ : _S{{< sub "1" >}}_ \* _S{{< sub "2" >}}_  → ℝ are given by the table, where _u{{< sub "1" >}}_ is red and _u{{< sub "2" >}}_ is blue.
 
 {{< tableopen >}}
 {{< theadopen >}}
@@ -137,10 +140,10 @@ Formally, a game consists of 3 elements:
 ### Example: Cournot Competition
 
 *   _N_ = {1, 2}
-*   _S1_ = \[0, ∞), _S2_ = \[0, ∞)
+*   _S{{< sub "1" >}}_ = \[0, ∞), _S{{< sub "2" >}}_ {{< sub "=" >}} \[0, ∞)
     *   We ignore that _q_ must be integers.
-*   _u1_ : _S_ → ℝ and _u2_: _S_ → ℝ given by  
-    _ui_ (_q1_, _q2_) = (_P —_ $500)_q1_ = ($2000 — _q__1_ — _q2_ — $500)_qi_
+*   _u{{< sub "1" >}}_ : _S_ → ℝ and _u{{< sub "2" >}}_: _S_ → ℝ given by  
+    _u{{< sub "i" >}}_ (_q{{< sub "1" >}}_, _q{{< sub "2" >}}_) = (_P —_ $500)_q{{< sub "1" >}}_ = ($2000 — _q_{{< sub "_1_" >}} — _q{{< sub "2" >}}_ — $500)_q{{< sub "i" >}}_
 
 In many cases, the sets of strategies have some structure:
 
@@ -171,23 +174,22 @@ Equilibria
 Nash equilibrium - A state with no incentive to deviate that can be sustained.
 
 Given the opponents' strategies, what would you do?  
-"Best response correspondence" Bi : _S\-i_ → _Si_
+"Best response correspondence" B{{< sub "i" >}} : _S{{< sub "\\-i" >}}_ → _S{{< sub "i" >}}_
 
-*   Bgirl(musical) = {musical}
-*   Bgirl(soccer) = {soccer}
-*   Bboy(musical) = {musical}
-*   Bboy(soccer) = {soccer}
+*   B{{< sub "girl" >}}(musical) = {musical}
+*   B{{< sub "girl" >}}(soccer) = {soccer}
+*   B{{< sub "boy" >}}(musical) = {musical}
+*   B{{< sub "boy" >}}(soccer) = {soccer}
 
 ⇒ (M,M) and (S,S) are mutually optimal; "nash equilibria."
 
-When the best response correspondence only has one element, we may instead use the best response function (Bgirl(musical) = musical).
+When the best response correspondence only has one element, we may instead use the best response function (B{{< sub "girl" >}}(musical) = musical).
 
 ### Example: Cournot Competition
 
-Given Samsung's production _q2_, Apple wants to maximize its profits _u1_(_q1_, _q2_)=(1500 — _q__1_ — _q2_)_q1._  
-![Mathematical equation.]({{< resource_file 14ba4c14-e898-b3fb-eec1-ed322084c597 >}})  
+Given Samsung's production _q{{< sub "2" >}}_, Apple wants to maximize its profits _u{{< sub "1" >}}_(_q{{< sub "1" >}}_, _q{{< sub "2" >}}_)=(1500 — _q_{{< sub "_1_" >}} — _q{{< sub "2" >}}_)_q{{< sub "1." >}}_{{< sub "  \n![Mathematical equation.]({{< resource_file 14ba4c14-e898-b3fb-eec1-ed322084c597 >}})  \n" >}}
 
-That is, B1(_q2_) = ½(1500 — _q2_). Similarly, B2(_q1_)= ½(1500 — _q2_).
+That is, B{{< sub "1" >}}(_q{{< sub "2" >}}_) = ½(1500 — _q{{< sub "2" >}}_). Similarly, B{{< sub "2" >}}(_q{{< sub "1" >}}_)= ½(1500 — _q{{< sub "2" >}}_).
 
 Nash equilibrium is the fixed point:
 

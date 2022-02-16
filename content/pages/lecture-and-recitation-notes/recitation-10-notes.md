@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
+parent_type: CourseSection
 parent_uid: 9f4e8596-124d-1608-f9e6-b335a917765a
 title: Recitation 10 Notes
 uid: c12605b9-6f3b-3003-c15f-17c54b313a4c
@@ -185,7 +188,7 @@ Consider the same strategy for player 2. 
 Let's check that this is an equilibrium:
 
 1.  At period _t_, suppose they have been playing (C, C).  
-    By sticking to C, one obtains 1 + 𝛿 + 𝛿2 + ... = 1/(1-𝛿 ).  
+    By sticking to C, one obtains 1 + 𝛿 + 𝛿{{< sup "2" >}} + ... = 1/(1-𝛿 ).  
     By deviating to D, one obtains 2 + 0 + 0 + ... = 2.  
     → If 𝛿 ≥ ½, no incentive to deviate.
 2.  At period _t_, suppose either has deviated to D.  
