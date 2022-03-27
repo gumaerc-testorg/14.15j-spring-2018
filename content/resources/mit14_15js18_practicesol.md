@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Exams
 parent_type: CourseSection
+parent_uid: 1b95ec8c-e3db-d034-9f3c-decd0497c16a
 resourcetype: Document
 title: 14.15J / 6.207J Networks, Practice Problem Solutions
 uid: 8eadb4fd-6edf-075b-459d-6a7d21d067ca

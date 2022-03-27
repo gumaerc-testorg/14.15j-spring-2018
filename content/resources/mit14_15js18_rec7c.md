@@ -11,6 +11,7 @@ learning_resource_types: []
 ocw_type: OCWImage
 parent_title: Recitation 7 Notes
 parent_type: CourseSection
+parent_uid: 95bc71b6-56b3-a07b-95c4-63f5d2768559
 resourcetype: Image
 title: MIT14_15JS18_rec7c.png
 uid: 14ba4c14-e898-b3fb-eec1-ed322084c597

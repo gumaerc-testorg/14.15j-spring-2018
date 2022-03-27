@@ -7,6 +7,7 @@ learning_resource_types: []
 ocw_type: OCWFile
 parent_title: Lecture and Recitation Notes
 parent_type: CourseSection
+parent_uid: 9f4e8596-124d-1608-f9e6-b335a917765a
 resourcetype: Document
 title: 14.15J / 6.207J Networks, Lecture 8 Clustering
 uid: f409e6b0-5822-a0b2-54f1-68d26862cebe

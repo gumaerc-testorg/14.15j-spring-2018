@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
+parent_uid: bfb01f55-7e18-fd96-7a8f-927f9d3712b7
 resourcetype: Document
 title: 14.15J / 6.207J Networks, Problem Set 1 Solutions
 uid: ee906ed4-3e75-a72d-7696-467a3d05f82c

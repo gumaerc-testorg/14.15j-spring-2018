@@ -8,6 +8,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
+parent_uid: bfb01f55-7e18-fd96-7a8f-927f9d3712b7
 resourcetype: Document
 title: MIT14_15JS18_sol3.pdf
 uid: 9dc40fd9-acca-3261-da27-ad5add80192e
