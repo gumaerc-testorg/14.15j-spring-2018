@@ -1,185 +1,137 @@
 ---
 content_type: page
-learning_resource_types: []
-ocw_type: CourseSection
-parent_title: Lecture and Recitation Notes
-parent_type: CourseSection
+description: 'This page contains the notes for recitation 7. '
+draft: false
 parent_uid: 9f4e8596-124d-1608-f9e6-b335a917765a
 title: Recitation 7 Notes
 uid: 95bc71b6-56b3-a07b-95c4-63f5d2768559
 ---
+## Topics
 
-Topics
-------
+- What is a game?
+- Normal form games
+- Equilibria
 
-*   What is a game?
-*   Normal form games
-*   Equilibria
-
-Games
------
+## Games
 
 Why game theory? Games on networks!
 
-Ex. congestion, international trade, Amazon's new office location, peer effects in school learning, deciding state taxes.  
+Ex. congestion, international trade, Amazon's new office location, peer effects in school learning, deciding state taxes.         
 A game is a representation of strategic interaction. 
 
 ### Example: Prisoner's Dilemma
 
-{{< tableopen >}}
-{{< theadopen >}}
-{{< tropen >}}
-{{< thopen >}}
+{{< tableopen >}}{{< theadopen >}}{{< tropen >}}{{< thopen >}}
  
-{{< thclose >}}
-{{< thopen >}}
+{{< thclose >}}{{< thopen >}}
 2 Silent 
-{{< thclose >}}
-{{< thopen >}}
+{{< thclose >}}{{< thopen >}}
  2 Confess
-{{< thclose >}}
-
-{{< trclose >}}
-
-{{< theadclose >}}
-{{< tropen >}}
-{{< thopen >}}
+{{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< thopen >}}
 1 Silent
-{{< thclose >}}
-{{< tdopen >}}
+{{< thclose >}}{{< tdopen >}}
 \-2, -2
-{{< tdclose >}}
-{{< tdopen >}}
+{{< tdclose >}}{{< tdopen >}}
 \-20, 0
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< thopen >}}
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< thopen >}}
 1 Confess
-{{< thclose >}}
-{{< tdopen >}}
+{{< thclose >}}{{< tdopen >}}
 0, -20
-{{< tdclose >}}
-{{< tdopen >}}
+{{< tdclose >}}{{< tdopen >}}
 \-10, -10
-{{< tdclose >}}
-
-{{< trclose >}}
-
-{{< tableclose >}}
+{{< tdclose >}}{{< trclose >}}{{< tbodyclose >}}{{< tableclose >}}
 
 ### Example: Cournot Competition
 
 How many iPhones should Apple produce?
 
-*   Apple produces _q{{< sub "1" >}}_ iPhones at marginal cost $500.
-*   Samsung produces _q{{< sub "2" >}}_ Galaxies at marginal cost $500.
-*   Price given by inverse demand _P_ \= 2000 — _Q_, _Q_ \= _q{{< sub "1" >}}_ + _q{{< sub "2." >}}_
-*   Apple's profit given by _Pq{{< sub "1" >}} —_ $500 \* _q{{< sub "1." >}}_
-*   Samsung's profit given by _Pq{{< sub "2" >}}_ — $500 \* _q{{< sub "2." >}}_
+- Apple produces *q*{{< sub "1" >}} iPhones at marginal cost $500.
+- Samsung produces *q*{{< sub "2" >}} Galaxies at marginal cost $500.
+- Price given by inverse demand *P* = 2000 — *Q*, *Q* = *q*{{< sub "1" >}} + *q*{{< sub "2." >}}
+- Apple's profit given by *Pq*{{< sub "1" >}} *—* $500 \* *q*{{< sub "1." >}}
+- Samsung's profit given by *Pq*{{< sub "2" >}} — $500 \* *q*{{< sub "2." >}}
 
-Normal Form Games
------------------
+## Normal Form Games
 
 Formally, a game consists of 3 elements:
 
-1.  The set of players _N._
-2.  The sets of strategies {_S{{< sub "i" >}}_}{{< sub "i∈" >}}_{{< sub "N." >}}_
-3.  The sets of payoffs {_u{{< sub "i" >}}_: _S_ → ℝ }{{< sub "i∈" >}}_{{< sub "N." >}}_
+1. The set of players *N.*
+2. The sets of strategies {*Si*}i∈*N.*
+3. The sets of payoffs {*ui*: *S* → ℝ }i∈*N.*
 
 ### Example: Prisoner's Dilemma
 
-*   _N_ = {1, 2}
-*   _S{{< sub "1" >}}_ = {silent, confess}, _S{{< sub "2" >}}_ = {silent, confess}
-*   _u{{< sub "1" >}}_ : _S{{< sub "1" >}}_ \* _S{{< sub "2" >}}_ → ℝ and _u{{< sub "2" >}}_ : _S{{< sub "1" >}}_ \* _S{{< sub "2" >}}_  → ℝ are given by the table, where _u{{< sub "1" >}}_ is red and _u{{< sub "2" >}}_ is blue.
+- *N* = {1, 2} 
+- *S*{{< sub "1" >}} = {silent, confess}, *S*{{< sub "2" >}} = {silent, confess}
+- *u*{{< sub "1" >}} : *S*{{< sub "1" >}} \* *S*{{< sub "2" >}} → ℝ and *u*{{< sub "2" >}} : *S*{{< sub "1" >}} \* *S*{{< sub "2" >}}  → ℝ are given by the table, where *u*{{< sub "1" >}} is red and *u*{{< sub "2" >}} is blue.
 
-{{< tableopen >}}
-{{< theadopen >}}
-{{< tropen >}}
-{{< thopen >}}
+{{< tableopen >}}{{< theadopen >}}{{< tropen >}}{{< thopen >}}
  
-{{< thclose >}}
-{{< thopen >}}
+{{< thclose >}}{{< thopen >}}
 2 Silent 
-{{< thclose >}}
-{{< thopen >}}
+{{< thclose >}}{{< thopen >}}
  2 Confess
-{{< thclose >}}
-
-{{< trclose >}}
-
-{{< theadclose >}}
-{{< tropen >}}
-{{< thopen >}}
+{{< thclose >}}{{< trclose >}}{{< theadclose >}}{{< tbodyopen >}}{{< tropen >}}{{< thopen >}}
 1 Silent
-{{< thclose >}}
-{{< tdopen >}}
-\-2, \-2
-{{< tdclose >}}
-{{< tdopen >}}
+{{< thclose >}}{{< tdopen >}}
+\-2, -2
+{{< tdclose >}}{{< tdopen >}}
 \-20, 0
-{{< tdclose >}}
-
-{{< trclose >}}
-{{< tropen >}}
-{{< thopen >}}
+{{< tdclose >}}{{< trclose >}}{{< tropen >}}{{< thopen >}}
 1 Confess
-{{< thclose >}}
-{{< tdopen >}}
-0, \-20
-{{< tdclose >}}
-{{< tdopen >}}
-\-10, \-10
-{{< tdclose >}}
-
-{{< trclose >}}
-
-{{< tableclose >}}
+{{< thclose >}}{{< tdopen >}}
+0, -20
+{{< tdclose >}}{{< tdopen >}}
+\-10, -10
+{{< tdclose >}}{{< trclose >}}{{< tbodyclose >}}{{< tableclose >}}
 
 ### Example: Cournot Competition
 
-*   _N_ = {1, 2}
-*   _S{{< sub "1" >}}_ = \[0, ∞), _S{{< sub "2" >}}_ {{< sub "=" >}} \[0, ∞)
-    *   We ignore that _q_ must be integers.
-*   _u{{< sub "1" >}}_ : _S_ → ℝ and _u{{< sub "2" >}}_: _S_ → ℝ given by  
-    _u{{< sub "i" >}}_ (_q{{< sub "1" >}}_, _q{{< sub "2" >}}_) = (_P —_ $500)_q{{< sub "1" >}}_ = ($2000 — _q_{{< sub "_1_" >}} — _q{{< sub "2" >}}_ — $500)_q{{< sub "i" >}}_
+- *N* = {1, 2}
+- *S*{{< sub "1" >}} = \[0, ∞), *S*{{< sub "2" >}} {{< sub "=" >}} \[0, ∞)
+    - We ignore that *q* must be integers.
+- *u*{{< sub "1" >}} : *S* → ℝ and *u*{{< sub "2" >}}: *S* → ℝ given by         
+    *u*{{< sub "i" >}} (*q*{{< sub "1" >}}, *q*{{< sub "2" >}}) = (*P —* $500)*q*{{< sub "1" >}} = ($2000 — *q*{{< sub "_1_" >}} — *q*{{< sub "2" >}} — $500)*q*{{< sub "i" >}}
 
 In many cases, the sets of strategies have some structure:
 
-1.  Simultaneous games (penalty kicks in soccer).
-2.  Repeated games (Libor rate manipulation scandal).
-3.  Sequential games (how should US respond to china's tariffs?).
+1. Simultaneous games (penalty kicks in soccer).
+2. Repeated games (Libor rate manipulation scandal).
+3. Sequential games (how should US respond to china's tariffs?).
 
-What happens when there is a game-like situation?   
-There are many variations...
+What happens when there is a game-like situation?          
+There are many variations…
 
-*   Weak prediction: "Dominated strategies are never played."
-*   Strong prediction: "Mutually optimal strategies are played."
+- Weak prediction: "Dominated strategies are never played."
+- Strong prediction: "Mutually optimal strategies are played."
 
 Elimination of strictly dominated strategies
 
 ### Example: Prisoner's Dilemma
 
- ![2 by 2 table with three options crossed out.]({{< resource_file 07721ce8-3fd5-061e-7ea6-90c057a512fd >}})
+ 
+
+{{< resource uuid="07721ce8-3fd5-061e-7ea6-90c057a512fd" >}}
+
+ 
 
 ### Example: Battle of the Sexes
 
-![2 by 2 table with two options circled.]({{< resource_file 4e7c8ce1-167c-f78b-7bc9-f5fa2f5ef603 >}})  
+{{< resource uuid="4e7c8ce1-167c-f78b-7bc9-f5fa2f5ef603" >}}
+
 No elimination needed.
 
-Equilibria
-----------
+## Equilibria
 
 Nash equilibrium - A state with no incentive to deviate that can be sustained.
 
-Given the opponents' strategies, what would you do?  
-"Best response correspondence" B{{< sub "i" >}} : _S{{< sub "\\-i" >}}_ → _S{{< sub "i" >}}_
+Given the opponents' strategies, what would you do?         
+"Best response correspondence" B{{< sub "i" >}} : *S*{{< sub "\-i" >}} → *S*{{< sub "i" >}}
 
-*   B{{< sub "girl" >}}(musical) = {musical}
-*   B{{< sub "girl" >}}(soccer) = {soccer}
-*   B{{< sub "boy" >}}(musical) = {musical}
-*   B{{< sub "boy" >}}(soccer) = {soccer}
+- B{{< sub "girl" >}}(musical) = {musical}
+- B{{< sub "girl" >}}(soccer) = {soccer}
+- B{{< sub "boy" >}}(musical) = {musical}
+- B{{< sub "boy" >}}(soccer) = {soccer}
 
 ⇒ (M,M) and (S,S) are mutually optimal; "nash equilibria."
 
@@ -187,10 +139,14 @@ When the best response correspondence only has one element, we may instead use t
 
 ### Example: Cournot Competition
 
-Given Samsung's production _q{{< sub "2" >}}_, Apple wants to maximize its profits _u{{< sub "1" >}}_(_q{{< sub "1" >}}_, _q{{< sub "2" >}}_)=(1500 — _q_{{< sub "_1_" >}} — _q{{< sub "2" >}}_)_q{{< sub "1." >}}_{{< sub "  \n![Mathematical equation.]({{< resource_file 14ba4c14-e898-b3fb-eec1-ed322084c597 >}})  \n" >}}
+Given Samsung's production *q*{{< sub "2" >}}, Apple wants to maximize its profits
 
-That is, B{{< sub "1" >}}(_q{{< sub "2" >}}_) = ½(1500 — _q{{< sub "2" >}}_). Similarly, B{{< sub "2" >}}(_q{{< sub "1" >}}_)= ½(1500 — _q{{< sub "2" >}}_).
+ 
+
+*u*{{< sub "1" >}}(*q*{{< sub "1" >}}, *q*{{< sub "2" >}})=(1500 — *q*{{< sub "_1_" >}} — *q*{{< sub "2" >}})*q*{{< sub "1." >}}{{< sub "  \n<section data-uuid="14ba4c14-e898-b3fb-eec1-ed322084c597"></section>  \n" >}}
+
+That is, B{{< sub "1" >}}(*q*{{< sub "2" >}}) = ½(1500 — *q*{{< sub "2" >}}). Similarly, B{{< sub "2" >}}(*q*{{< sub "1" >}})= ½(1500 — *q*{{< sub "2" >}}).
 
 Nash equilibrium is the fixed point:
 
-![Mathematical equation.]({{< resource_file 241c946b-6516-3f21-731f-69964da1b242 >}})
+{{< resource uuid="241c946b-6516-3f21-731f-69964da1b242" >}}
