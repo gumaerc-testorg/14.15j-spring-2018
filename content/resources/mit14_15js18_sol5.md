@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /media/courses/14-15j-networks-spring-2018/d928bebcced71f290c7a71ae49b8d885_MIT14_15JS18_sol5.pdf
+file: /courses/14-15j-networks-spring-2018/d928bebcced71f290c7a71ae49b8d885_MIT14_15JS18_sol5.pdf
 file_type: application/pdf
 learning_resource_types:
 - Assignments

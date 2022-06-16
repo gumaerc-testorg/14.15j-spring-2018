@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: The list of all reading requirements.
 learning_resource_types:
 - Readings
 ocw_type: CourseSection
@@ -7,7 +8,7 @@ title: Readings
 uid: 0bba04ea-61a2-c186-e446-5b370f64bee6
 ---
 
-Many sessions also have a [recommended list]({{< baseurl >}}/pages/readings/recommended-readings) for further reading.  
+Many sessions also have a {{% resource_link 129bb3a7-740a-b736-6d9c-6484c6ea46a1 "recommended list" %}} for further reading.  
 
 \[Newman\] Newman, Mark. _Networks: An Introduction_. Oxford University Press, 2010. ISBN: 9780199206650.
 
@@ -99,7 +100,7 @@ Dynamics Over Graph: Spread of Information and Distributed Computation
 {{< tdopen >}}
 
 
-No assigned readings, see [recommended readings]({{< baseurl >}}/pages/readings/recommended-readings)
+No assigned readings, see {{% resource_link 129bb3a7-740a-b736-6d9c-6484c6ea46a1 "recommended readings" %}}
 
 
 {{< tdclose >}}

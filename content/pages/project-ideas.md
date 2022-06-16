@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This contains ideas for the final project.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Project Ideas

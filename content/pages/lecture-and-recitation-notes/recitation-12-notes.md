@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: 'This is the recitation 12 notes on networks. '
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
@@ -51,7 +52,7 @@ Recall games with externalities
 *   _N_ = \[0, 1\]
 *   _S{{< sub "i" >}}_ = {Adopt, Not Adopt}
 *     
-    ![Games with externalities equation.]({{< resource_file 4a315788-e2ae-30ae-e7e7-76502c0e6ccc >}})  
+    {{< resource 4a315788-e2ae-30ae-e7e7-76502c0e6ccc >}}  
     Where _X_ is the share of adoption. 
 
 This has externalities, but network structure doesn't matter. In reality, you may register for Instagram not only because it is popular, but also because your friends have it. 
@@ -62,11 +63,11 @@ Where _V_ are vertices, _E_ are edges, and _N_ is the set of neighbors of vertex
 *   _N_ = _V_
 *   _S{{< sub "i" >}}_ = {Adopt, Not Adopt} = {1, 0}.
 *     
-    ![Undirected graph mathematical formula.]({{< resource_file ebe54f2e-003b-b4f7-f555-c8a6162e47ba >}})
+    {{< resource ebe54f2e-003b-b4f7-f555-c8a6162e47ba >}}
 
 ### _Example_
 
-![Diagram of connected vertices]({{< resource_file 730cf581-98bc-3524-7301-325c83d4c238 >}})
+{{< resource 730cf581-98bc-3524-7301-325c83d4c238 >}}
 
 *   Too complicated to solve (many-body problem).
 *   Nor do we care about particular solution on particular networks. Often concerned with particular degree distribution, but not finer details.
@@ -82,7 +83,7 @@ To solve:
 
 Let _N_ = _V_ = \[0, 1\] and 
 
- ![Graph equation]({{< resource_file bb8b417c-8721-9fb7-8a79-2637521a92c1 >}})
+ {{< resource bb8b417c-8721-9fb7-8a79-2637521a92c1 >}}
 
 *   Agents are heterogeneous _c{{< sub "i" >}}_ ~ _F_(0, 1).
 *   Degree distribution _d_{{< sub "_i_" >}} ~ _D_.
@@ -91,5 +92,5 @@ To solve:
 
 1.  Fix some _X_. Pick agent _i_ randomly.
 2.  _i_ with _c_{{< sub "_i_" >}} and _d_{{< sub "_i_" >}} would adopt if  
-    ![Adoption equation.]({{< resource_file bdba4e6e-80f6-4c4d-ca15-c2562a751350 >}})
+    {{< resource bdba4e6e-80f6-4c4d-ca15-c2562a751350 >}}
 3.  Since _c{{< sub "i" >}}_ ~ _F_\[0, 1\], the probability that a random person with degree _d_{{< sub "_i_" >}} (but unknown _c_{{< sub "_i_" >}}) adopts is _F_(_V_(_d_{{< sub "_i_" >}}, _X_)). Since _d_{{< sub "_i_" >}} ~ _D_, we have the share of adoption 𝔼{{< sub "D" >}}\[_F_(_V_(_d_{{< sub "_i_" >}}, _X_))\] . From here, we can compute the neighbor adoption share _X̂_.

@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /media/courses/14-15j-networks-spring-2018/96147b3099f32daeb7e066263364db00_MIT14_15JS18_practice.pdf
+file: /courses/14-15j-networks-spring-2018/96147b3099f32daeb7e066263364db00_MIT14_15JS18_practice.pdf
 file_type: application/pdf
 learning_resource_types:
 - Exams

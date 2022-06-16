@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /media/courses/14-15j-networks-spring-2018/2d857a59782ce39d0618a8a610b9f5d0_MIT14_15jS18_lec1.pdf
+file: /courses/14-15j-networks-spring-2018/2d857a59782ce39d0618a8a610b9f5d0_MIT14_15jS18_lec1.pdf
 file_type: application/pdf
 learning_resource_types: []
 ocw_type: OCWFile

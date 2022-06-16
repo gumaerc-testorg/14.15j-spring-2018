@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: 'This contains the notes for recitation 8. '
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
@@ -44,7 +45,7 @@ Congestion Games
 
 Paths are labeled (edge, traffic, cost/duration):
 
-![Congestion game diagram]({{< resource_file 8b8ce358-1ee5-1d9f-a952-ff7b9d51a045 >}})
+{{< resource 8b8ce358-1ee5-1d9f-a952-ff7b9d51a045 >}}
 
 *   Directed network (_J_, _E_) = ({_A_, _B_, _C_}, {1, 2, 3, 4}).
 *   Set of paths _P_ = {_p_{{< sub "_1_" >}}, _p_{{< sub "_2_" >}}, _p_{{< sub "_3_" >}}} = {(1), (2,3), (2,4)}.
@@ -72,7 +73,7 @@ So, his best response correspondence is to choose a path that gives minimum indi
 
 Paths are labeled (edge/path, traffic, individual cost):
 
-![Equilibrium congestion game diagram.]({{< resource_file 9a415541-da92-a035-9c9f-e3fb90f215fb >}})
+{{< resource 9a415541-da92-a035-9c9f-e3fb90f215fb >}}
 
 *   Model constraint: _x_{{< sub "_1_" >}} + _x_{{< sub "_2_" >}} = 1.
 *   Total cost: _x_{{< sub "_1_" >}}\*L{{< sub "1" >}}(_x_{{< sub "_1_" >}}) + _x_{{< sub "_2_" >}}\*L{{< sub "2" >}}(_x_{{< sub "_2_" >}}) = _x_{{< sub "_1_" >}}{{< sup "2" >}} + _x_{{< sub "_2_" >}} = _x_{{< sub "_1_" >}}{{< sup "2" >}} + (1 — _x_{{< sub "_1_" >}}) = (_x{{< sub "1" >}}_ — ½){{< sup "2" >}} \+ ¾.
@@ -95,11 +96,11 @@ Potential Games
 
 In physics, particles move along the unique potential field.
 
-![Particles moving along unique potential fields.]({{< resource_file 770315e0-e12b-e93d-df13-24991317bfce >}})
+{{< resource 770315e0-e12b-e93d-df13-24991317bfce >}}
 
 In society, people move along their own incentives.
 
-![Diagram of people moving along their own incentives.]({{< resource_file c4284b00-43ea-befd-7d88-fd6dc2a0704f >}})
+{{< resource c4284b00-43ea-befd-7d88-fd6dc2a0704f >}}
 
 However, there are cases where people's incentives are so similar that they move as if there is a unique potential field.
 
@@ -107,5 +108,5 @@ However, there are cases where people's incentives are so similar that they move
 
 Definition: A game is an exact potential game if there is exists Φ (unique potential field) such that:
 
-*   _u_{{< sub "_i_" >}}(_S_{{< sub "_i_" >}}, _S_{{< sub "_\\-i_" >}}) — _u_{{< sub "_i_" >}}(_S_{{< sub "_i_" >}}', _S_{{< sub "_\\-i_" >}}) = Φ(_S_{{< sub "_i_" >}}, _S_{{< sub "_\\-i_" >}}) — Φ(_S_{{< sub "_i_" >}}', _S_{{< sub "_i_" >}}).
+*   _u_{{< sub "_i_" >}}(_S_{{< sub "_i_" >}}, _S_{{< sub "_\-i_" >}}) — _u_{{< sub "_i_" >}}(_S_{{< sub "_i_" >}}', _S_{{< sub "_\-i_" >}}) = Φ(_S_{{< sub "_i_" >}}, _S_{{< sub "_\-i_" >}}) — Φ(_S_{{< sub "_i_" >}}', _S_{{< sub "_i_" >}}).
 *   That is, _i_'s incentive matches the potential's gradient.

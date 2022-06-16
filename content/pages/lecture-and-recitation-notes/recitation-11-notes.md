@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: 'Notes for recitation 11. '
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
@@ -29,16 +30,16 @@ If other players act _more_ aggressively, you have incentive to act _more_ aggre
 
 ### _Example_: Playing Sports with Friends
 
-![Diagram of relationship chart.]({{< resource_file 99a3b994-f74d-67d1-5aac-27008aeb3742 >}})
+{{< resource 99a3b994-f74d-67d1-5aac-27008aeb3742 >}}
 
 *   _N_ = {1, 2, 3}
-*   _S{{< sub "i" >}}_ = ℝ{{< sub "+" >}} = \[0, ∞)
-*   _u_{{< sub "_i_" >}}(_x_{{< sub "_i_" >}}, _x_{{< sub "_\\-i_" >}}, δ, _G_) = _x_{{< sub "_i_" >}} — ½ _x{{< sub "i" >}}_{{< sup "_2_" >}} + δ∑{{< sub "(j≠i)" >}} _g{{< sub "i" >}}{{< sub "j" >}} x{{< sub "i" >}} x_{{< sub "_j_" >}}
+*   _S{{< sub "i" >}}_ = ℝ{{< sub "\+" >}} = \[0, ∞)
+*   _u_{{< sub "_i_" >}}(_x_{{< sub "_i_" >}}, _x_{{< sub "_\-i_" >}}, δ, _G_) = _x_{{< sub "_i_" >}} — ½ _x{{< sub "i" >}}_{{< sup "_2_" >}} + δ∑{{< sub "(j≠i)" >}} _g{{< sub "i" >}}{{< sub "j" >}} x{{< sub "i" >}} x_{{< sub "_j_" >}}
     *   Where δ is the degree of complementarity (δ ≥ 0). 
 *   Best response of player _i_:   
-    ![Best response equation formula.]({{< resource_file badee777-e475-cbcf-2d0c-fd00b47a34fa >}})
-*   Collectively, _BR{{< sub "i" >}}_(_x_{{< sub "_\\-i_" >}}) = 𝟙 + δ_G_𝕏.
-*   The equilibrium (fixed point) is 𝕏{{< sup "\\*" >}} = (_I_ — δ_G_){{< sup "\\-1" >}}𝟙.
+    {{< resource badee777-e475-cbcf-2d0c-fd00b47a34fa >}}
+*   Collectively, _BR{{< sub "i" >}}_(_x_{{< sub "_\-i_" >}}) = 𝟙 + δ_G_𝕏.
+*   The equilibrium (fixed point) is 𝕏{{< sup "\*" >}} = (_I_ — δ_G_){{< sup "\-1" >}}𝟙.
 
 Subgame Perfect Equilibrium
 ---------------------------
@@ -99,7 +100,7 @@ Football
 
 Suppose the girl wakes up very early. Then, she can wait at Starbucks in the mall.
 
-![Shopping vs football tree diagram.]({{< resource_file 252aa29c-40d5-4da6-d459-561f65ddbf80 >}})
+{{< resource 252aa29c-40d5-4da6-d459-561f65ddbf80 >}}
 
 Then, (3, 2) is the unique SPE. The guy claiming that he'll definitely go to football no matter what is an "empty threat."
 

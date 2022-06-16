@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: 'This page contains notes for recitation 7 on repeated games. '
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes

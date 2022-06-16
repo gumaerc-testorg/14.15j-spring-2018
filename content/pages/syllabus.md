@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page includes the course syllabus, including course description
+  and prerequisites.
 learning_resource_types: []
 ocw_type: CourseSection
 title: Syllabus
@@ -103,4 +105,4 @@ There will be two exams in the subject. The exams will both be closed book. You 
 Project
 -------
 
-A project on a topic that overlaps with the course (potentially selected from a [list of topics]({{< baseurl >}}/pages/project-ideas)) is assigned. You will be expected to work in groups. The project will be due on the day of presentation, which will be held during the last lectures of the class.
+A project on a topic that overlaps with the course (potentially selected from a {{% resource_link c385c9f3-e7a9-69c5-7fa8-343a73411a07 "list of topics" %}}) is assigned. You will be expected to work in groups. The project will be due on the day of presentation, which will be held during the last lectures of the class.
