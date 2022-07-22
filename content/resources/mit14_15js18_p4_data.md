@@ -5,6 +5,7 @@ file: /courses/14-15j-networks-spring-2018/af461924df74c130be69a3ed602427e6_MIT1
 file_type: application/octet-stream
 learning_resource_types:
 - Assignments
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection

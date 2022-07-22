@@ -8,6 +8,7 @@ image_metadata:
   credit: ''
   image-alt: 2 by 2 table with three options crossed out.
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWImage
 parent_title: Recitation 7 Notes
 parent_type: CourseSection

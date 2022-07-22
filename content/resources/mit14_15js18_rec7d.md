@@ -8,6 +8,7 @@ image_metadata:
   credit: ''
   image-alt: Mathematical equation.
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWImage
 parent_title: Recitation 7 Notes
 parent_type: CourseSection

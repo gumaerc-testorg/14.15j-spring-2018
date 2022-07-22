@@ -5,6 +5,7 @@ file: /courses/14-15j-networks-spring-2018/75a81a487e2a897892c83f94e3ab0c88_MIT1
 file_type: application/pdf
 learning_resource_types:
 - Exams
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Exams
 parent_type: CourseSection

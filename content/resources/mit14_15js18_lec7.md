@@ -4,6 +4,7 @@ description: ''
 file: /courses/14-15j-networks-spring-2018/1849524f5062e7fa45c1120d7ecef6b1_MIT14_15JS18_lec7.pdf
 file_type: application/pdf
 learning_resource_types: []
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Lecture and Recitation Notes
 parent_type: CourseSection
