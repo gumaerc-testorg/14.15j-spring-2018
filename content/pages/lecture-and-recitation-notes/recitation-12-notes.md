@@ -1,6 +1,7 @@
 ---
 content_type: page
 description: 'This is the recitation 12 notes on networks. '
+draft: false
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: Lecture and Recitation Notes
@@ -9,88 +10,90 @@ parent_uid: 9f4e8596-124d-1608-f9e6-b335a917765a
 title: Recitation 12 Notes
 uid: 2ec1c32b-4e76-eb2c-1162-a12d99c0d41e
 ---
+## Topics
 
-Topics
-------
+- Bargaining on Networks
+- Contagion Models
+- Mean-Field Approximation
 
-*   Bargaining on Networks
-*   Contagion Models
-*   Mean-Field Approximation
+## Recall
 
-Recall
-------
-
-*   Take-it-or-leave-it offer:
-    *   One party makes an offer.  
-        Then, the other party accepts or rejects it.  
+- Take-it-or-leave-it offer:
+    - One party makes an offer.   
+        Then, the other party accepts or rejects it.   
         Game end.
-    *   The proposer takes all the surplus. 
-*   Rubinstein's bargaining:
-    *   One party makes an offer.  
-        The other party accepts or rejects.  
-        If rejected, he makes a counter offer.  
+    - The proposer takes all the surplus. 
+- Rubinstein's bargaining:
+    - One party makes an offer.   
+        The other party accepts or rejects.   
+        If rejected, he makes a counter offer.   
         Continue until a party accepts.
-    *   The first proposer takes _1/(1 + δ)_. The offeree takes _δ/(1 + δ)_.
+    - The first proposer takes *1/(1 + δ)*. The offeree takes *δ/(1 + δ)*.
 
-Bargaining on Networks
-----------------------
+## Bargaining on Networks
 
 What if there are two sellers?
 
-*   Take-it-or-leave-it offer:  
-    *   If _S{{< sub "1" >}}_ offers _p_, _S{{< sub "2" >}}_ has incentive to offer _p — ε_.
-    *   Even if sellers make (simultaneous) offers, they receive 0. The buyer receives 1.
-*   Rubinstein's bargaining:
-    *   If _S_{{< sub "_1_" >}} offers _1/(1 + δ)_, _S_{{< sub "_2_" >}} has incentive to offer _1/(1 + δ) — ε_.
-    *   Again, the sellers receive 0, the buyer takes it all. 
+- Take-it-or-leave-it offer:
+    - If *S*{{< sub "1" >}} offers *p*, *S*{{< sub "2" >}} has incentive to offer *p — ε*.
+    - Even if sellers make (simultaneous) offers, they receive 0. The buyer receives 1.
+- Rubinstein's bargaining:
+    - If *S<sub>1</sub>* offers *1/(1 + δ)*, *S<sub>2</sub>* has incentive to offer *1/(1 + δ) — ε*.
+    - Again, the sellers receive 0, the buyer takes it all. 
 
-Contagion Models
-----------------
+## Contagion Models
 
 Recall games with externalities
 
-*   _N_ = \[0, 1\]
-*   _S{{< sub "i" >}}_ = {Adopt, Not Adopt}
-*     
-    {{< resource 4a315788-e2ae-30ae-e7e7-76502c0e6ccc >}}  
-    Where _X_ is the share of adoption. 
+- *N* = \[0, 1\]
+- *S*{{< sub "i" >}} = {Adopt, Not Adopt}
+
+{{< resource uuid="4a315788-e2ae-30ae-e7e7-76502c0e6ccc" >}}
+
+- Where *X* is the share of adoption. 
 
 This has externalities, but network structure doesn't matter. In reality, you may register for Instagram not only because it is popular, but also because your friends have it. 
 
-Consider undirected graph (_V_, _E_), _N_(_i_) ⊂ _V_  
-Where _V_ are vertices, _E_ are edges, and _N_ is the set of neighbors of vertex _i_ ∈ _V_.
+Consider undirected graph (*V*, *E*), *N*(*i*) ⊂ *V*   
+Where *V* are vertices, *E* are edges, and *N* is the set of neighbors of vertex *i* ∈ *V*.
 
-*   _N_ = _V_
-*   _S{{< sub "i" >}}_ = {Adopt, Not Adopt} = {1, 0}.
-*     
-    {{< resource ebe54f2e-003b-b4f7-f555-c8a6162e47ba >}}
+- *N* = *V*
+- *S*{{< sub "i" >}} = {Adopt, Not Adopt} = {1, 0}.
 
-### _Example_
+{{< resource uuid="ebe54f2e-003b-b4f7-f555-c8a6162e47ba" >}}
 
-{{< resource 730cf581-98bc-3524-7301-325c83d4c238 >}}
+### *Example*
 
-*   Too complicated to solve (many-body problem).
-*   Nor do we care about particular solution on particular networks. Often concerned with particular degree distribution, but not finer details.
-*   Mean-field approximation to solve for stationary equation. 
+{{< resource uuid="730cf581-98bc-3524-7301-325c83d4c238" >}}
 
-To solve:
-
-1.  Consider random graph with the degree distribution and fix some neighbor adoption probability _X_. 
-2.  Obtain best response strategy given _X_ and compute adoption share _X̂_.
-3.  Derive fixed point. 
-
-### _Example_
-
-Let _N_ = _V_ = \[0, 1\] and 
-
- {{< resource bb8b417c-8721-9fb7-8a79-2637521a92c1 >}}
-
-*   Agents are heterogeneous _c{{< sub "i" >}}_ ~ _F_(0, 1).
-*   Degree distribution _d_{{< sub "_i_" >}} ~ _D_.
+- Too complicated to solve (many-body problem).
+- Nor do we care about particular solution on particular networks. Often concerned with particular degree distribution, but not finer details.
+- Mean-field approximation to solve for stationary equation. 
 
 To solve:
 
-1.  Fix some _X_. Pick agent _i_ randomly.
-2.  _i_ with _c_{{< sub "_i_" >}} and _d_{{< sub "_i_" >}} would adopt if  
-    {{< resource bdba4e6e-80f6-4c4d-ca15-c2562a751350 >}}
-3.  Since _c{{< sub "i" >}}_ ~ _F_\[0, 1\], the probability that a random person with degree _d_{{< sub "_i_" >}} (but unknown _c_{{< sub "_i_" >}}) adopts is _F_(_V_(_d_{{< sub "_i_" >}}, _X_)). Since _d_{{< sub "_i_" >}} ~ _D_, we have the share of adoption 𝔼{{< sub "D" >}}\[_F_(_V_(_d_{{< sub "_i_" >}}, _X_))\] . From here, we can compute the neighbor adoption share _X̂_.
+1. Consider random graph with the degree distribution and fix some neighbor adoption probability *X*. 
+2. Obtain best response strategy given *X* and compute adoption share *X̂*.
+3. Derive fixed point. 
+
+### *Example*
+
+Let *N* = *V* = \[0, 1\] and 
+
+ 
+
+{{< resource uuid="bb8b417c-8721-9fb7-8a79-2637521a92c1" >}}
+
+ 
+
+- Agents are heterogeneous *c*{{< sub "i" >}} ~ *F*(0, 1).
+- Degree distribution *d<sub>i</sub>* ~ *D*.
+
+To solve:
+
+1. Fix some *X*. Pick agent *i* randomly.
+2. *i* with *c<sub>i</sub>* and *d<sub>i</sub>* would adopt if
+
+{{< resource uuid="bdba4e6e-80f6-4c4d-ca15-c2562a751350" >}}
+
+1. Since *c<sub>i</sub>* ~ *F*\[0, 1\], the probability that a random person with degree *d<sub>i</sub>* (but unknown *c<sub>i</sub>*) adopts is *F*(*V*(*d<sub>i</sub>*, *X*)). Since *d<sub>i</sub>* ~ *D*, we have the share of adoption 𝔼<sub>D</sub>\[*F*(*V*(*d<sub>i</sub>*, *X*))\] . From here, we can compute the neighbor adoption share *X̂*.
