@@ -2,6 +2,7 @@
 content_type: resource
 description: ''
 file: /courses/14-15j-networks-spring-2018/8eadb4fd6edf075b459d6a7d21d067ca_MIT14_15JS18_practicesol.pdf
+file_size: 222430
 file_type: application/pdf
 learning_resource_types:
 - Exams
