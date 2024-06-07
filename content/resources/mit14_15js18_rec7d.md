@@ -2,6 +2,7 @@
 content_type: resource
 description: ''
 file: /courses/14-15j-networks-spring-2018/241c946b65163f21731f69964da1b242_MIT14_15JS18_rec7d.png
+file_size: 21923
 file_type: image/png
 image_metadata:
   caption: ''
