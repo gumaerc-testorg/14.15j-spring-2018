@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /ol-ocw-studio-app/courses/14-15j-networks-spring-2018/af461924df74c130be69a3ed602427e6_MIT14_15JS18_p4_data.mat
+file: /courses/14-15j-networks-spring-2018/af461924df74c130be69a3ed602427e6_MIT14_15JS18_p4_data.mat
 file_size: 1266
 file_type: application/octet-stream
 learning_resource_types:
