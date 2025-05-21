@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /ol-ocw-studio-app/courses/14-15j-networks-spring-2018/f409e6b05822a0b254f168d26862cebe_MIT14_15JS18_lec8.pdf
+file: /courses/14-15j-networks-spring-2018/f409e6b05822a0b254f168d26862cebe_MIT14_15JS18_lec8.pdf
 file_size: 660849
 file_type: application/pdf
 learning_resource_types: []

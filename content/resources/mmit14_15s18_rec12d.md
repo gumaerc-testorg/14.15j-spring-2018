@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /ol-ocw-studio-app/courses/14-15j-networks-spring-2018/cb1d66ef767c8761ab7f4c16f726dbe6_MMIT14_15S18_rec12d.png
+file: /courses/14-15j-networks-spring-2018/cb1d66ef767c8761ab7f4c16f726dbe6_MMIT14_15S18_rec12d.png
 file_size: 55254
 file_type: image/png
 image_metadata:
