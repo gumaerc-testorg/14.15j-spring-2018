@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /courses/14-15j-networks-spring-2018/89942c853f3e76e605fb02eab7d73296_MIT14_15JS18_examsol.pdf
+file: /ol-ocw-studio-app/courses/14-15j-networks-spring-2018/89942c853f3e76e605fb02eab7d73296_MIT14_15JS18_examsol.pdf
 file_size: 309004
 file_type: application/pdf
 learning_resource_types:
