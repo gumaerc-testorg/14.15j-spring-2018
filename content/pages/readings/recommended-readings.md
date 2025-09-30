@@ -92,11 +92,11 @@ Surowiecki, James. *The Wisdom of Crowds: Why the Many Are Smarter Than the Few 
 Network Effects (II)
 {{< tdclose >}}{{< tdopen >}}
 
-Bramoullé, Yann, Rachel Kranton, and Martin D'Amours. "[Strategic Interaction and Networks](https://www.aeaweb.org/articles?id=10.1257/aer.104.3.898)." American Economic Review, 104 (2014): 898-930.
+Bramoullé, Yann, Rachel Kranton, and Martin D'Amours. "{{% resource_link "83a4fa63-23f0-48b0-8160-cab13687f2e2" "Strategic Interaction and Networks" %}}." American Economic Review, 104 (2014): 898-930.
 
-Ballester, Coralio, Antoni Calvó-Armengol, and Yves Zenou. “[Who’s Who in Networks. Wanted: The Key Player (PDF)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-0262.2006.00709.x).” 2005.
+Ballester, Coralio, Antoni Calvó-Armengol, and Yves Zenou. “{{% resource_link "3949b7cf-cfd9-4852-af5c-777fa8f64e87" "Who’s Who in Networks. Wanted: The Key Player (PDF)" %}}.” 2005.
 
-Candogan, Ozan, Kostas Bimpikis, and Asuman Ozdaglar. “[Optimal Pricing in Networks with Externalities (PDF)](https://stanford.edu/~kostasb/publications/optimal_pricing.pdf).” *Operations Research* 60, no. 4 (2012): 883–905.
+Candogan, Ozan, Kostas Bimpikis, and Asuman Ozdaglar. “{{% resource_link "6f716e0b-af28-469f-859a-c0337926ea85" "Optimal Pricing in Networks with Externalities (PDF)" %}}.” *Operations Research* 60, no. 4 (2012): 883–905.
 
 Goyal, Sanjeev. *Connections: An Introduction to the Economics of Networks*. Princeton University Press, 2009. ISBN: 9780691141183. Chapter 3.
 
@@ -106,9 +106,9 @@ Goyal, Sanjeev. *Connections: An Introduction to the Economics of Networks*. Pri
 Networked Markets
 {{< tdclose >}}{{< tdopen >}}
 
-Mihai, Manea. “[Bargaining in Stationary Networks](https://www.aeaweb.org/articles?id=10.1257/aer.101.5.2042).” *American Economic Review* 101 (2011): 2042–2080.
+Mihai, Manea. “{{% resource_link "34c1b3f5-2022-4b7e-be4c-046480c14178" "Bargaining in Stationary Networks" %}}.” *American Economic Review* 101 (2011): 2042–2080.
 
-Acemoglu, Daron, Vasco Carvalho, et al. “[The Network Origins of Aggregate Fluctuations](https://onlinelibrary.wiley.com/doi/10.3982/ECTA9623).” *Econometrica* 80, no. 5 (2012): 1977–2016. 
+Acemoglu, Daron, Vasco Carvalho, et al. “{{% resource_link "ce989504-7688-4faf-a31e-e2520167fe2f" "The Network Origins of Aggregate Fluctuations" %}}.” *Econometrica* 80, no. 5 (2012): 1977–2016. 
 
 Parker, Gregory, Marshall Van Alstyne, and Sangeet Choudary. *Platform Revolution: How Networked Markets are Transforming the Economy and How to Make Them Work for You*. W. W. Norton & Company, 2016. ISBN: 9780393354355.
 
@@ -136,11 +136,11 @@ Barabasi, Albert-Laszlo. *Linked: How Everything Is Linked to Everything Else an
 Games with Incomplete Information and Introduction to Social Learning, Herding, and Informational Cascades
 {{< tdclose >}}{{< tdopen >}}
 
-Golub, Ben, and Evan Sadler. "[Learning in Social Networks](http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199948277.001.0001/oxfordhb-9780199948277-e-12)." In *The Oxford Handbook of the Economics of Networks*. Oxford University Press, 2016.
+Golub, Ben, and Evan Sadler. "{{% resource_link "de2361ad-8a02-4453-a895-44f49e23a05d" "Learning in Social Networks" %}}." In *The Oxford Handbook of the Economics of Networks*. Oxford University Press, 2016.
 
-Acemoglu, Daron, Munther Dahleh, et al. "[Bayesian Learning in Social Networks](https://www.jstor.org/stable/41407059)." *Review of Economic Studies* 78 (2011): 1201–1236.
+Acemoglu, Daron, Munther Dahleh, et al. "{{% resource_link "220748a2-cc8b-4a39-982d-1d2f78720baa" "Bayesian Learning in Social Networks" %}}." *Review of Economic Studies* 78 (2011): 1201–1236.
 
-Golub, Benjamin and Matthew Jackson. “[Naïve Learning in Social Networks and the Wisdom of Crowds](https://www.researchgate.net/publication/46554139_Naive_Learning_in_Social_Networks_and_the_Wisdom_of_Crowds).” *Microeconomics* 2, no. 1 (2010): 112–149.
+Golub, Benjamin and Matthew Jackson. “{{% resource_link "288525fe-506a-4f3f-bb42-182b14d4d86c" "Naïve Learning in Social Networks and the Wisdom of Crowds" %}}.” *Microeconomics* 2, no. 1 (2010): 112–149.
 
 Goyal, Sanjeev. *Connections: An Introduction to the Economics of Networks*. Princeton University Press, 2009. ISBN: 9780691141183. Chapter 5.
 
